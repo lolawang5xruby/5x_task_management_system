@@ -33,16 +33,11 @@
 |   | created_at | datetime |
 |   | updated_at | datetime |
 
-|   | 欄位名稱  | 資料型態  |  
-|---|---|---|
-| 4.	任務標籤關聯 (TaskTag)| 
-|   | id  | int |  
-|   | task_id |int (fk)|  
-|   | tag_id |int (fk)|  
+
 	
 |   | 欄位名稱  | 資料型態  |  
 |---|---|---|
-| 	5.	登入記錄 (LoginRecord)| 
+| 	4.	登入記錄 (LoginRecord)| 
 |   | id  | int |  
 |   | user_id | int |  
 |   | login_time | datetime |
